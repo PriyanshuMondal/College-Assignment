@@ -47,10 +47,6 @@ int main()
         C[k] = Search(B, n, A[i]);
         k++;
     }
-    for (int i = 0; i < m; i++)
-    {
-        printf("%d ", C[i]);
-    }
     printf("The number is %d", FindMax(C, m));
     return 0;
 }
